@@ -20,5 +20,5 @@ func printComponents(vector geometry.Vector) {
 }
 
 func printAbs(vector geometry.Vector) {
-	fmt.Println(vector.Abs())
+	fmt.Println(vector.Length())
 }

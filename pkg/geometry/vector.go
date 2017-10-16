@@ -3,7 +3,7 @@ package geometry
 import "math"
 
 type Vector interface {
-	Abs() float64
+	Length() float64
 	GetComponents() []float64
 }
 
