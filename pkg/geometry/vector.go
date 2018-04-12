@@ -18,7 +18,6 @@ func (v Vector2D) Length() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
 
-
 func (v Vector3D) Length() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y + v.Z*v.Z)
 }
